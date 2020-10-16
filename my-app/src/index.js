@@ -6,22 +6,18 @@ import { Container, Header, Image, Menu, Icon } from 'semantic-ui-react';
 
 class TopMenu extends React.Component {
   render() {
-    const picStyle = { width: "200px" };
     return (
         <Menu borderless className="topmenu">
           <Container>
-            <Menu.Item>
+            <Menu.Item position={'left'}>
               <Image
-                  style={picStyle}
+                  style={{ width: "200px" }}
                   src="https://www.fakespot.com/assets/home/color_fakespot-0190751cb545154c935cdd73f099d4b2f00305b1c39f642e2dc3e64d1a60068f.svg"/>
             </Menu.Item>
-            <Menu.Item position=" right">LOCATIONS & MENUS</Menu.Item>
-            <Menu.Item>BEER</Menu.Item>
-            <Menu.Item>ABOUT</Menu.Item>
-            <Menu.Item>CONTACT</Menu.Item>
-            <Menu.Item>STORE</Menu.Item>
-            <Menu.Item>EVENTS</Menu.Item>
-            <Menu.Item>NOSTALGIA</Menu.Item>
+            <Menu.Item position={'left'}>
+              <input type={'text'} placeholder={'https://www.'}></input>
+              <button class={'ui rounded button'}>Analyze</button>
+            </Menu.Item>
           </Container>
         </Menu>
     )

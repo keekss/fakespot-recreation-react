@@ -1,2 +1,25 @@
 @import url('https://fonts.googleapis.com/css?family=Inter');
 
+/*:root {*/
+/*  --ap: 50px;*/
+/*}*/
+
+.ui.topmenu.menu {
+  border: 0px;
+  border-radius: 0;
+  margin: 0;
+  box-shadow: none;
+  padding: 20px 20px 20px 20px;
+  /*padding-left: 40px;*/
+  /*padding-right: 40px;*/
+  /*height: 200px;*/
+}
+
+.ui.topmenu.menu .analyzeForm {
+  /*height:200px;*/
+}
+
+button.ui.button {
+  background-color: white;
+  border: 1px solid gray;
+}
