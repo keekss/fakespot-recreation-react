@@ -9,17 +9,97 @@
   border-radius: 0;
   margin: 0;
   box-shadow: none;
-  padding: 20px 20px 20px 20px;
+  /*font-family: 'Inter';*/
+  /*padding: 20px 20px 20px 20px;*/
   /*padding-left: 40px;*/
   /*padding-right: 40px;*/
   /*height: 200px;*/
 }
 
-.ui.topmenu.menu .analyzeForm {
-  /*height:200px;*/
+.analyzeForm {
+
+}
+
+.middle {
+  margin-left: auto;
+  margin-right: auto;
 }
 
 button.ui.button {
+  height: 43px;
   background-color: white;
-  border: 1px solid gray;
+  border: 1px solid lightgray;
+  color: #0064F6;
 }
+
+tyle={{padding: '1px 3px 1px 20px'}}
+
+#main-text {
+
+}
+
+#main-text h1 {
+  font-family: 'Inter';
+  text-align: center;
+  display: inline-block;
+  margin-top: 80px;
+  font-size: 48px;
+  font-weight: bolder;
+}
+
+#middle-input {
+  width: 660px;
+  height: 60px;
+}
+
+#middle-button {
+  width: 89px;
+  height: 60px;
+}
+
+#main-text p {
+  font-family: 'Inter';
+  color: #5F6F8E;
+  font-size: 22px;
+  margin-bottom: 60px;
+}
+
+#blue-text {
+  color: #0037F6;
+}
+
+.ui.button {
+  background-color: white;
+}
+
+#main-search .ui.fluid.action.input {
+  width: 80%;
+}
+
+.row {
+  padding-top: 100px;
+  padding-bottom: 300px;
+  display: flex;
+}
+
+.column {
+  flex: 20%;
+  padding: 5px;
+  height: 30px;
+  width: auto;
+}
+
+#footer-row .column {
+  padding: 30px;
+}
+
+#right-footer h4 {
+  font-family: "Inter";
+  color: black;
+}
+
+#right-footer pre {
+  font-family: "Inter";
+  color: #7f7f7f;
+}
+
